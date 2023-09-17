@@ -64,11 +64,12 @@ body {
 
 .counter__actions {
     display: flex;
+    justify-content:center;
 }
 
 .counter__button {
     background: none;
-    width: 50;
+    width: 50%;
     border-width: 0;
     color: var(--color-white);
     font-size: 3rem;
